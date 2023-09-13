@@ -1,10 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { BrowserRouter } from "react-router-dom";
 // import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 import { Link, Box, Text, Image } from "@chakra-ui/react";
-import { Header, Session, Library, Review, FAQ, Footer } from "./components";
+import {
+  Header,
+  Session,
+  Library,
+  Review,
+  FAQ,
+  Hero1,
+  Footer,
+} from "./components";
 
 function App() {
   return (
@@ -36,6 +43,7 @@ function App() {
               element={<ReservationConfirmed />}
             /> */}
           </Routes>
+          <Hero1 />
           <Box p={4} display={{ md: "flex" }}>
             <Box flexShrink={0}>
               <Image

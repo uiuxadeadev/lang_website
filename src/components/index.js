@@ -34,6 +34,7 @@ import Session from "./Session";
 import Library from "./Library";
 import Review from "./Review";
 import FAQ from "./FAQ";
+import Hero1 from "./Hero1";
 import Footer from "./Footer";
 
-export { Header, Navbar, Session, Library, Review, FAQ, Footer };
+export { Header, Navbar, Session, Library, Review, FAQ, Hero1, Footer };
