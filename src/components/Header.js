@@ -17,7 +17,8 @@ const Header = () => {
         backgroundColor="rgba(255, 255, 255, 0.8)" // Using RGBA for transparency
         borderColor="var(--backgroundhover)"
         borderRadius="8px"
-        boxShadow="var(--shadow-lv3)"
+        // boxShadow="var(--shadow-lv3)"
+        boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.22)"
         display="flex"
         justifyContent="space-between"
         overflow="hidden"
@@ -48,10 +49,10 @@ const Header = () => {
         </Box>
 
         <Box>
-          <Box>
+          <Flex>
             <Button>Log in</Button>
             <Button>Sign up</Button>
-          </Box>
+          </Flex>
         </Box>
       </Flex>
     </header>
