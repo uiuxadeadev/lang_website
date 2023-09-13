@@ -26,7 +26,6 @@ function App() {
       <main>
         <Router>
           <Header />
-
           <Routes>
             <Route path="/Session" element={<Session />} />
             <Route path="/Library" element={<Library />} />
@@ -37,21 +36,17 @@ function App() {
               element={<ReservationConfirmed />}
             /> */}
           </Routes>
-          <Footer />
-          {/* <Alert /> */}
-        </Router>
-      </main>
-      <Box p={4} display={{ md: "flex" }}>
-        <Box flexShrink={0}>
-          <Image
-            borderRadius="lg"
-            width={{ md: "500px", lg: "750px", xl: "1000px" }}
-            src="https://bit.ly/2jYM25F"
-            alt="Woman paying for a purchase"
-          />
-        </Box>
+          <Box p={4} display={{ md: "flex" }}>
+            <Box flexShrink={0}>
+              <Image
+                borderRadius="lg"
+                width={{ md: "500px", lg: "750px", xl: "1000px" }}
+                src="https://bit.ly/2jYM25F"
+                alt="Woman paying for a purchase"
+              />
+            </Box>
 
-        {/* <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
+            {/* <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
           <Text
             fontWeight="bold"
             textTransform="uppercase"
@@ -76,61 +71,30 @@ function App() {
             are five ideas you can use to find your first customers.
           </Text>
         </Box> */}
-      </Box>
-      <Box flexShrink={0}>
-        <Image
-          borderRadius="lg"
-          width={{ md: "500px", lg: "750px", xl: "1000px" }}
-          src="https://bit.ly/2jYM25F"
-          alt="Woman paying for a purchase"
-        />
-      </Box>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      var<p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
+          </Box>
+          <Box flexShrink={0}>
+            <Image
+              borderRadius="lg"
+              width={{ md: "500px", lg: "750px", xl: "1000px" }}
+              src="https://bit.ly/2jYM25F"
+              alt="Woman paying for a purchase"
+            />
+          </Box>
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
+          var<p>test</p>
+          <p>test</p>
+          <Footer />
+          {/* <Alert /> */}
+        </Router>
+      </main>
     </div>
   );
 }

@@ -38,7 +38,7 @@ const Header = () => {
           >
             <Box>
               <a href="https://langclub.live/">
-                <Image src={logo} alt="logo" w="110px" h="28.5px" />
+                <Image src={logo} alt="logo" w="132px" h="34px" />
               </a>
             </Box>
             <Box>
@@ -49,8 +49,8 @@ const Header = () => {
 
         <Box>
           <Box>
-           <Button>Log in</Button>
-           <Button>Sign up</Button>
+            <Button>Log in</Button>
+            <Button>Sign up</Button>
           </Box>
         </Box>
       </Flex>
