@@ -10,7 +10,7 @@ const Hero4FreeSection = () => {
         <Stack direction="column">
           <Flex justifyContent="space-between" mb="100px">
             <Box
-              w={{ base: "100%", md: "498px" }} // Width for mobile and PC
+              w={{ base: "100%", md: "398px" }} // Width for mobile and PC
               top={{ base: "auto", md: "116px" }} // Top position for mobile and PC
               left={{ base: "auto", md: "67px" }} // Left position for mobile and PC
               position="relative" // Ensure the parent Box is positioned relatively
@@ -57,7 +57,7 @@ const Hero4FreeSection = () => {
             </Box>
           </Flex>
 
-          <Flex justifyContent="space-between">
+          <Flex justifyContent="space-between" mb="73px">
             <Box
               w={{ base: "100%", md: "498px" }} // Width for mobile and PC
               top={{ base: "auto", md: "116px" }} // Top position for mobile and PC

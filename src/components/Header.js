@@ -19,7 +19,6 @@ const Header = () => {
         borderRadius="8px"
         // boxShadow="var(--shadow-lv3)"
         boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.22)"
-        display="flex"
         justifyContent="space-between"
         overflow="hidden"
         padding="9px 16px"
@@ -28,7 +27,7 @@ const Header = () => {
         left="50%" // Center it horizontally
         zIndex="999"
         transform="translateX(-50%)" // Center it horizontally
-        width="1340px"
+        maxW="1340px"
       >
         <Box>
           <Flex
