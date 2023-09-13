@@ -10,7 +10,20 @@ import {
   Review,
   FAQ,
   Hero1,
+  Hero2,
   Footer,
+  Hero5,
+  Hero3FreeSection,
+  Hero4FreeSection,
+  Hero6,
+  Hero7,
+  Hero8,
+  Hero9,
+  Hero10,
+  Hero11,
+  Hero12,
+  Hero13,
+  Hero14,
 } from "./components";
 
 function App() {
@@ -44,6 +57,19 @@ function App() {
             /> */}
           </Routes>
           <Hero1 />
+          <Hero2 />
+          <Hero3FreeSection />
+          <Hero4FreeSection />
+          <Hero5 />
+          <Hero6 />
+          <Hero7 />
+          <Hero8 />
+          <Hero9 />
+          <Hero10 />
+          <Hero11 />
+          <Hero12 />
+          <Hero13 />
+          <Hero14 />
           <Box p={4} display={{ md: "flex" }}>
             <Box flexShrink={0}>
               <Image

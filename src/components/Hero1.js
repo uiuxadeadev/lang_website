@@ -11,7 +11,7 @@ const Hero1 = () => {
   }
 
   return (
-    <div>
+    <>
       <Box
         bgGradient="linear(to-br, #EEFCFF, #FFFFFF, #F5F4FF, #FFD6EC)" // Define the gradient using the colors
         w="100vw" // Set the width to 100% of the viewport width
@@ -80,7 +80,7 @@ const Hero1 = () => {
           </Box>
         </Flex>
       </Box>
-    </div>
+    </>
   );
 };
 
