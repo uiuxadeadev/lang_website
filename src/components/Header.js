@@ -24,7 +24,7 @@ const Header = () => {
         overflow="hidden"
         padding="9px 16px"
         position="fixed" // Fixed position to make it sticky
-        top="0" // Stick to the top of the viewport
+        top="16px" // Stick to the top of the viewport
         left="50%" // Center it horizontally
         zIndex="999"
         transform="translateX(-50%)" // Center it horizontally
