@@ -50,7 +50,7 @@ import Hero11 from "./Hero11";
 import Hero12 from "./Hero12";
 import Hero13 from "./Hero13";
 import Hero14 from "./Hero14";
-
+import CrownPremiumBox from "./UI parts/CrownPremiumBox";
 import Footer from "./Footer";
 
 export {
@@ -76,5 +76,6 @@ export {
   Hero14,
   LandingUserSectionCards,
   LandingUserSectionCard,
+  CrownPremiumBox,
   Footer,
 };
