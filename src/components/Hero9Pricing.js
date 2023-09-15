@@ -1,7 +1,7 @@
 import React from "react";
 
-const Hero9 = () => {
+const Hero9Pricing = () => {
   return <div>Hero9</div>;
 };
 
-export default Hero9;
+export default Hero9Pricing;

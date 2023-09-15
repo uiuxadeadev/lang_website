@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Flex, Text, Button, Image } from "@chakra-ui/react";
-import Missing1 from "../assets/Missing1.png";
+import Missing from "../assets/Missing.png";
 import { useNavigate } from "react-router-dom";
 
 const Hero1 = () => {
@@ -71,7 +71,7 @@ const Hero1 = () => {
 
           <Box>
             <Image
-              src={Missing1}
+              src={Missing}
               alt="Hero1 image"
               w="715px"
               h="615px"

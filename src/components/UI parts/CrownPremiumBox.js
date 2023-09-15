@@ -3,12 +3,12 @@ import { Link, Box, Button, Flex, Image, Stack, Text } from "@chakra-ui/react";
 import imageGroup403White from "../../assets/Group 403_white.svg";
 import imageGroup380 from "../../assets/Group 380.svg";
 
-const CrownPremiumBox = () => {
+const CrownPremiumBox = ({ width }) => {
   return (
     <>
       <Flex
         justifyContent="space-between"
-        maxW="250px" // Maximum width
+        maxW={width} // Maximum width based on the prop 
         padding="4px 10px" // Padding (clockwise: top right bottom left)
         borderRadius="7px" // Border radius
         border="2px solid" // Border
