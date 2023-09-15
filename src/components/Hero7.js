@@ -41,7 +41,7 @@ const Hero7 = () => {
         backgroundRepeat="no-repeat"
         backgroundPosition="center"
         justifyContent="space-between"
-        mb="162px"
+        // mb="162px"
       >
         <Stack direction="column" alignItems="center" pt="128px">
           {stepData.map((data, index) => (
