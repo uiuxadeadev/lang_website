@@ -43,7 +43,7 @@ const Hero7 = () => {
         justifyContent="space-between"
         // mb="162px"
       >
-        <Stack direction="column" alignItems="center" pt="128px" mb="162px">
+        <Stack direction="column" alignItems="center" pt="128px">
           {stepData.map((data, index) => (
             <Flex
               key={index}

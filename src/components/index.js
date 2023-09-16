@@ -44,6 +44,8 @@ import Hero5 from "./Hero5";
 import Hero6 from "./Hero6";
 import Hero7 from "./Hero7";
 import Hero8 from "./Hero8Review";
+import UserReviewCards from "./UserReviewCards";
+import UserReviewCard from "./UserReviewCard";
 import Hero9 from "./Hero9Pricing";
 import PricingCards from "./PricingCards.js";
 import PricingCard from "./PricingCard.js";
@@ -70,6 +72,8 @@ export {
   Hero6,
   Hero7,
   Hero8,
+  UserReviewCards,
+  UserReviewCard,
   Hero9,
   PricingCards,
   PricingCard,
