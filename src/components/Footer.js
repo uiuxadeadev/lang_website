@@ -34,6 +34,11 @@ const Footer = () => {
     { label: "My Membership", href: "#" },
   ];
 
+  const contractItems = [
+    { label: "Privacy policy", href: "#" },
+    { label: "Terms of service", href: "#" },
+  ];
+
   return (
     <footer>
       <Divider borderColor={useColorModeValue("gray.400", "gray.600")} />
@@ -103,7 +108,7 @@ const Footer = () => {
             <Flex mt="35px" justify="space-between">
               <Flex>
                 <Stack align="start">
-                  {myItems.map((item) => (
+                  {contractItems.map((item) => (
                     <Link
                       key={item.label}
                       href={item.href}
@@ -112,6 +117,7 @@ const Footer = () => {
                       lineHeight="19px"
                       letterSpacing="0"
                       textAlign="left"
+                      textDecoration="underline"
                     >
                       {item.label}
                     </Link>

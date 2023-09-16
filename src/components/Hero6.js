@@ -4,6 +4,31 @@ import { CrownPremiumBox } from "./";
 import YoutubeSession from "../assets/YoutubeSession.png";
 import YoutubeIcon from "../assets/YoutubeIcon.svg";
 
+const FeatureItem = ({ icon, text }) => (
+  <Flex
+    justifyContent="left"
+    alignItems="center"
+    borderRight="1px solid #FFFFFF"
+    maxW="240px"
+    h="26px"
+    gap="4px"
+    mr="24px"
+    pr="24px"
+  >
+    <Image src={icon} alt={`${icon} icon`} w="40px" h="40px" />
+    <Text
+      fontSize="18px"
+      fontWeight="400"
+      lineHeight="28px"
+      letterSpacing="0"
+      textAlign="left"
+      color="#ffffff"
+    >
+      {text}
+    </Text>
+  </Flex>
+);
+
 const Hero6 = () => {
   return (
     <>
@@ -42,39 +67,11 @@ const Hero6 = () => {
             />
           </Box>
 
-          <Flex justifyContent="space-between" mb="114px">
-            <Box>
-              <Flex
-                justifyContent="space-between"
-                maxW="356px" // Maximum width
-                padding="4px 13px" // Padding (clockwise: top right bottom left)
-                borderRadius="7px" // Border radius
-                border="2px solid" // Border
-                borderColor="linear-gradient(to right, #00C2FF, #8F00FF)"
-                color="#666666"
-                gap="7px" // Gap between child elements
-              >
-                {/* <Box></Box>
-
-                <Box></Box> */}
-
-                <Box>
-                  <Text
-                    maxW="145px"
-                    h="100%"
-                    color="#666666"
-                    fontSize="19px"
-                    fontWeight="600"
-                    lineHeight="26px"
-                    letterSpacing="0"
-                    textAlign="center"
-                  >
-                    Youtube
-                  </Text>
-                </Box>
-              </Flex>
-            </Box>
-          </Flex>
+          <Stack direction="row" mb="114px">
+            <FeatureItem icon={YoutubeIcon} text="Youtube Live Session" />
+            <FeatureItem icon={YoutubeIcon} text="Youtube Activity" />
+            <FeatureItem icon={YoutubeIcon} text="Youtube Library" />
+          </Stack>
         </Stack>
       </Box>
     </>

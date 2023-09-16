@@ -8,9 +8,9 @@ const CrownPremiumBox = ({ width }) => {
     <>
       <Flex
         justifyContent="space-between"
-        maxW={width} // Maximum width based on the prop 
-        padding="4px 10px" // Padding (clockwise: top right bottom left)
-        borderRadius="7px" // Border radius
+        maxW={width} // Maximum width based on the prop
+        padding="10px 17px" // Padding (clockwise: top right bottom left)
+        borderRadius="8px"
         border="2px solid" // Border
         borderColor="linear-gradient(to bottom, rgb(0, 194, 255), rgb(143, 0, 255))"
         gap="14px"
@@ -30,6 +30,8 @@ const CrownPremiumBox = ({ width }) => {
             alt="langclub Premium"
             w="172px"
             h="100%"
+            position="relative"
+            top="5px"
           />
         </Box>
       </Flex>
