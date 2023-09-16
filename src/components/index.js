@@ -47,7 +47,7 @@ import Hero8 from "./Hero8Review";
 import Hero9 from "./Hero9Pricing";
 import PricingCards from "./PricingCards.js";
 import PricingCard from "./PricingCard.js";
-import Hero10 from "./Hero10";
+import Hero10 from "./Hero10Records";
 import Hero11 from "./Hero11";
 import Hero12 from "./Hero12";
 import Hero13 from "./Hero13";
