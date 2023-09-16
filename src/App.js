@@ -68,63 +68,6 @@ function App() {
           <Hero10 />
           <Hero11 />
           <Hero12 />
-          <Hero13 />
-          <Hero14 />
-          <Box p={4} display={{ md: "flex" }}>
-            <Box flexShrink={0}>
-              <Image
-                borderRadius="lg"
-                width={{ md: "500px", lg: "750px", xl: "1000px" }}
-                src="https://bit.ly/2jYM25F"
-                alt="Woman paying for a purchase"
-              />
-            </Box>
-
-            {/* <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
-          <Text
-            fontWeight="bold"
-            textTransform="uppercase"
-            fontSize="sm"
-            letterSpacing="wide"
-            color="teal.600"
-          >
-            Marketing
-          </Text>
-          <Link
-            mt={1}
-            display="block"
-            fontSize="lg"
-            lineHeight="normal"
-            fontWeight="semibold"
-            href="#"
-          >
-            Finding customers for your new business
-          </Link>
-          <Text mt={2} color="gray.500">
-            Getting a new business off the ground is a lot of hard work. Here
-            are five ideas you can use to find your first customers.
-          </Text>
-        </Box> */}
-          </Box>
-          <Box flexShrink={0}>
-            <Image
-              borderRadius="lg"
-              width={{ md: "500px", lg: "750px", xl: "1000px" }}
-              src="https://bit.ly/2jYM25F"
-              alt="Woman paying for a purchase"
-            />
-          </Box>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          var<p>test</p>
-          <p>test</p>
           <Footer />
           {/* <Alert /> */}
         </Router>

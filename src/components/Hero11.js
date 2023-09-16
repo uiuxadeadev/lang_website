@@ -47,7 +47,7 @@ const Hero11 = () => {
               Click 'Apply' for more information!
             </Text>
             <Button
-              w="308px"
+              w="300px"
               h="48px"
               p="10px 20px"
               borderRadius="8px"

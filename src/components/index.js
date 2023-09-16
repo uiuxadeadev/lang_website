@@ -49,7 +49,7 @@ import PricingCards from "./PricingCards.js";
 import PricingCard from "./PricingCard.js";
 import Hero10 from "./Hero10Records";
 import Hero11 from "./Hero11";
-import Hero12 from "./Hero12";
+import Hero12 from "./Hero12FAQ";
 import Hero13 from "./Hero13";
 import Hero14 from "./Hero14";
 import CrownPremiumBox from "./UI parts/CrownPremiumBox";

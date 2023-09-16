@@ -36,7 +36,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <Divider mt="8" borderColor={useColorModeValue("gray.400", "gray.600")} />
+      <Divider borderColor={useColorModeValue("gray.400", "gray.600")} />
 
       <Box bg="#D9DBDE" p="34px" justifyContent="space-between">
         <Flex>
