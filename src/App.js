@@ -1,8 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import { BrowserRouter } from "react-router-dom";
-// import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
-import { Link, Box, Text, Image } from "@chakra-ui/react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 import {
   Header,
   Home,

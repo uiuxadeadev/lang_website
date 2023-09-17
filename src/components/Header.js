@@ -1,7 +1,8 @@
 import React from "react";
 import { Navbar } from "./";
 import logo from "../assets/logo.svg";
-import { Link, Box, Button, Flex, Image } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
+import { Text, Button, Flex, Image } from "@chakra-ui/react";
 
 const Header = () => {
   return (
@@ -37,11 +38,41 @@ const Header = () => {
         </Flex>
 
         <Flex justifyContent="space-between" gap="8px">
-          <Button w="92px" h="38px" borderRadius="8px" padding="3px 16px">
-            Log in
+          <Button
+            w="92px"
+            h="38px"
+            backgroundColor="#F2F4F7"
+            borderRadius="8px"
+            padding="3px 16px"
+          >
+            <Text
+              color="#020063"
+              fontSize="16px"
+              fontWeight="600"
+              lineHeight="20px"
+              letterSpacing="0"
+              textAlign="center"
+            >
+              Log in
+            </Text>
           </Button>
-          <Button w="92px" h="38px" borderRadius="8px" padding="3px 16px">
-            Sign up
+          <Button
+            w="92px"
+            h="38px"
+            backgroundColor="#020063"
+            borderRadius="8px"
+            padding="3px 16px"
+          >
+            <Text
+              color="#FFFFFF"
+              fontSize="16px"
+              fontWeight="600"
+              lineHeight="20px"
+              letterSpacing="0"
+              textAlign="center"
+            >
+              Sign up
+            </Text>
           </Button>
         </Flex>
       </Flex>
