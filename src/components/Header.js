@@ -7,52 +7,43 @@ const Header = () => {
   return (
     <header>
       <Flex
-        height="60px"
-        // top="80px"
-        // left="16px"
-        // borderWidth="1px"
-
-        backdropFilter="blur(24px) brightness(100%)"
+        w="1340px"
+        maxW="1340px"
+        h="60px"
         alignItems="center"
-        backgroundColor="rgba(255, 255, 255, 0.8)" // Using RGBA for transparency
+        backgroundColor="rgba(255, 255, 255, 0.8)"
         borderColor="var(--backgroundhover)"
         borderRadius="8px"
-        // boxShadow="var(--shadow-lv3)"
         boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.22)"
         justifyContent="space-between"
         overflow="hidden"
         padding="9px 16px"
-        position="fixed" // Fixed position to make it sticky
-        top="16px" // Stick to the top of the viewport
-        left="50%" // Center it horizontally
+        position="fixed"
+        top="16px"
+        left="50%"
         zIndex="999"
-        transform="translateX(-50%)" // Center it horizontally
-        maxW="1340px"
+        transform="translateX(-50%)"
       >
-        <Box>
-          <Flex
-            alignItems="center"
-            width="762px"
-            height="fit-content"
-            justifyContent="space-between"
-          >
-            <Box>
-              <Link href="/">
-                <Image src={logo} alt="logo" w="132px" h="34px" />
-              </Link>
-            </Box>
-            <Box>
-              <Navbar />
-            </Box>
-          </Flex>
-        </Box>
+        <Flex
+          w="762px"
+          height="fit-content"
+          justifyContent="space-between"
+          alignItems="center"
+        >
+          <Link to="/">
+            <Image src={logo} alt="logo" w="132px" h="34px" />
+          </Link>
+          <Navbar />
+        </Flex>
 
-        <Box>
-          <Flex>
-            <Button>Log in</Button>
-            <Button>Sign up</Button>
-          </Flex>
-        </Box>
+        <Flex justifyContent="space-between" gap="8px">
+          <Button w="92px" h="38px" borderRadius="8px" padding="3px 16px">
+            Log in
+          </Button>
+          <Button w="92px" h="38px" borderRadius="8px" padding="3px 16px">
+            Sign up
+          </Button>
+        </Flex>
       </Flex>
     </header>
   );
