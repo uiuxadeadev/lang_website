@@ -37,9 +37,9 @@ const Header = () => {
             justifyContent="space-between"
           >
             <Box>
-              <a href="https://langclub.live/">
+              <Link href="/">
                 <Image src={logo} alt="logo" w="132px" h="34px" />
-              </a>
+              </Link>
             </Box>
             <Box>
               <Navbar />
