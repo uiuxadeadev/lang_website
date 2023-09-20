@@ -1,13 +1,6 @@
 import React from "react";
 import PremiumSectionIntro from "../assets/PremiumSectionIntro1.png";
-import {
-  Stack,
-  Box,
-  Flex,
-  Text,
-  Button,
-  Image,
-} from "@chakra-ui/react";
+import { Stack, Box, Flex, Text, Button, Image } from "@chakra-ui/react";
 import imageGroup403White from "../assets/Group 403_white.svg";
 import imageGroup380 from "../assets/Group 380.svg";
 import YoutubeIcon from "../assets/YoutubeIcon.svg";
@@ -23,12 +16,7 @@ const FeatureItem = ({ icon, text }) => (
     mr="24px"
     pr="24px"
   >
-    <Image
-      src={icon}
-      alt={`${icon} icon`}
-      w="40px"
-      h="40px"
-    />
+    <Image src={icon} alt={`${icon} icon`} w="40px" h="40px" />
     <Text
       fontSize="18px"
       fontWeight="400"
@@ -55,38 +43,38 @@ const Hero5 = () => {
         maxH="1108px"
       >
         <Stack direction="column" alignItems="center">
-          <Box mt="72px" mb="40px">
-            <Flex
-              justifyContent="space-between"
-              alignItems="center"
-              maxW="250px"
-              h="48px"
-              padding="10px 17px"
-              borderRadius="8px"
-              border="none"
-              bgGradient="linear(to-br, #00C2FF 3.94%, #8F00FF 94.16%)"
-              gap="14px"
-            >
-              <Flex>
-                <Image
-                  src={imageGroup380}
-                  alt="langclub Premium crown"
-                  w="21px"
-                  h="100%"
-                />
-              </Flex>
-              <Flex>
-                <Image
-                  src={imageGroup403White}
-                  alt="langclub Premium"
-                  w="172px"
-                  h="100%"
-                  position="relative"
-                  top="5px"
-                />
-              </Flex>
+          <Flex
+            justifyContent="space-between"
+            alignItems="center"
+            maxW="250px"
+            h="48px"
+            padding="10px 17px"
+            borderRadius="8px"
+            border="none"
+            bgGradient="linear(to-br, #00C2FF 3.94%, #8F00FF 94.16%)"
+            mt="72px"
+            mb="40px"
+            gap="14px"
+          >
+            <Flex>
+              <Image
+                src={imageGroup380}
+                alt="langclub Premium crown"
+                w="21px"
+                h="100%"
+              />
             </Flex>
-          </Box>
+            <Flex>
+              <Image
+                src={imageGroup403White}
+                alt="langclub Premium"
+                w="172px"
+                h="100%"
+                position="relative"
+                top="5px"
+              />
+            </Flex>
+          </Flex>
 
           <Box mb="30px">
             <Text
